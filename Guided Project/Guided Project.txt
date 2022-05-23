@@ -1,0 +1,79 @@
+Question 1
+
+BLAST stands for ____
+
+Ans) basic local alignment search tool
+
+
+Question 2
+
+____ file format is needed to perform BLAST.
+
+
+Ans) fasta
+
+
+Question 3
+
+E-value of 0.0 of a given sequence signifies that this sequence is an exact or a very close match to our sequence.
+
+
+Ans) true
+
+
+Question 4
+
+____ is NCBI's primary text search and retrieval system that integrates the PubMed database of biomedical literature with 38 other literature and molecular databases including DNA and protein sequence, structure, gene, genome, genetic variation, and gene expression.
+
+Ans) Entrez
+
+
+Question 5
+
+____ is a database for the three-dimensional structural data of large biological molecules, such as proteins.
+
+Ans) Protein Data Bank (PDB)
+
+
+
+Question 6
+
+The following code will print
+
+for chain in structure[0]:
+    print(f"chainid: {chain.id}")
+
+Ans) the number of chains and their ID's
+
+
+Question 7
+
+____ is a collection of databases dealing with genomes, biological pathways, diseases, drugs, and chemical substances.
+
+Ans) KEGG
+
+
+Question 8
+
+we can fetch domain details of specific proteins using ____ module
+
+Ans) EXPASY
+
+
+Question 9
+
+the following code will create a directory named ____
+
+pdbl = PDBList()
+pdbl.retrieve_pdb_file("7BYR",file_format="pdb",pdir="data")
+
+Ans) data
+
+
+Question 10
+
+to find the length of the sequence we use ____
+
+Ans) len(nuc_record.seq)
+
+
